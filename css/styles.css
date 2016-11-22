@@ -2,7 +2,7 @@
 /* responsibe for the cover photo */
 
 .cover {
-	background: url(rsz_dsc_0471.png);
+	background: lightblue;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 400px;
@@ -16,24 +16,27 @@
 }
 /* text color of the tabs in navbar */
 .cover a {
-	color: lightblue;
+	color: grey;
 }
 /* text color of the howdigh logo */
 
 .navbar-inverse .navbar-brand{
-	color:lightblue;
+	color:grey;
 }
-
-.howdigh-title div h1 {
-	font-family: Beautiful;
+.howdigh-title {
 	text-align: center;
+}
+.howdigh-title h1 {
+	font-family: Beautiful;
 	font-size: 50px;
+	font-size: 5vw;
 	word-spacing: 20px;
 	letter-spacing: 10px;
 	padding-top: 75px;
+	text-align: center;
 }
-.howdigh-title div h4 {
+.howdigh-title h4 {
 	font-family: Beautiful;
-	font-size: 20px;
-	padding-left: 20%;
+	font-size: 2vw;
+
 }
