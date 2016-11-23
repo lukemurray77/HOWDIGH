@@ -2,11 +2,9 @@
 /* responsibe for the cover photo */
 
 .cover {
-	background: lightblue;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: url(halong.png);
+	background-size: cover;
 	height: 400px;
-
 }
 
 /* make the navbar transparent */
@@ -27,16 +25,20 @@
 	text-align: center;
 }
 .howdigh-title h1 {
-	font-family: Beautiful;
+	font-family: beautiful;
 	font-size: 50px;
 	font-size: 5vw;
 	word-spacing: 20px;
 	letter-spacing: 10px;
-	padding-top: 75px;
+	padding-top: 20px;
 	text-align: center;
+	color: white;
+	text-shadow: .2vw .2vw black;
 }
 .howdigh-title h4 {
-	font-family: Beautiful;
+	font-family: beautiful;
 	font-size: 2vw;
+	text-shadow: .1vw .1vw black;
+	color: white;
 
 }
