@@ -57,7 +57,10 @@
 	text-align: center;
 }
 
-
+.divider {
+  width: 30%;
+  border-top: 3px double black;
+}
 
 
 
