@@ -1,8 +1,16 @@
 
 /* responsibe for the cover photo */
-
+@media (max-width: @screen-xs) {
+    body{font-size: 8px;}
+}
+@media (max-width: @screen-md) {
+    body{font-size: 8px;}
+}
+@media (max-width: @screen-sm) {
+    body{font-size: 8px;}
+}
 .cover {
-	background: url(halong.png);
+	background: url(cover.jpeg);
 	background-size: cover;
 	height: 400px;
 }
@@ -19,13 +27,13 @@
 /* text color of the howdigh logo */
 
 .navbar-inverse .navbar-brand{
-	color:black;
+	color:white;
 }
 .howdigh-title {
 	text-align: center;
 }
 .howdigh-title h1 {
-	font-family: sans-serif;
+	font-family: avenir;
 	font-size: 50px;
 	font-size: 5vw;
 	word-spacing: 20px;
@@ -36,7 +44,7 @@
 	text-shadow: .2vw .2vw black;
 }
 .howdigh-title h4 {
-	font-family: beautiful;
+	font-family: avenir;
 	font-size: 2vw;
 	text-shadow: .1vw .1vw black;
 	color: white;
@@ -63,7 +71,8 @@
   position: relative;
   text-align: center;
   cursor: default;
-  padding: 10px;
+  padding: 50px;
+
 }
 .hovereffect .overlay {
   position: absolute;
@@ -93,6 +102,8 @@
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
+  
+
 }
 .hovereffect:hover img {
   filter: blur(20px) grayscale(20%);
@@ -107,10 +118,9 @@
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  font-size: 17px;
   background-color: transparent;
   color: white;
-  padding: 1em 0;
+  padding-top: 10px;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -118,19 +128,19 @@
   -webkit-transform: translate3d(0,-100%,0);
   transform: translate3d(0,-100%,0);
 }
-.hovereffect .description {
-	text-overflow: hidden;
+.hovereffect .overlay .description {
+	overflow: hidden;
 	color: white;
 	text-align: left;
-	max-height: 200px;
-	max-width: 300px;
 	position: fixed;
+  padding-left: 20px;
+  padding-right: 20px;
 
 
 }
 
 
-.hovereffect a, hovereffect p {
+.hovereffect a {
   color: white;
   padding: 1em 0;
   opacity: 0;
@@ -153,7 +163,11 @@
 
 
 
+.eye-glyph {
+  color: white;
+  padding-top: 100px;
 
+}
 
 
 
